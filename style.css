@@ -562,7 +562,7 @@ position: relative;
 bottom: 11rem;
 }
 footer{
-  height: 105vh;
+  height: 100%;
 }
 .footer-option{
   justify-content: space-around;
@@ -588,19 +588,11 @@ footer{
 .footer-description{
   margin-right: 6rem;
  margin-left: 5.6rem;
+ padding-bottom: 10px;
 }
 
 
 }
-
-
-
-
-
-
-
-
-
 
 
 /* tablet devices responsive area end */
