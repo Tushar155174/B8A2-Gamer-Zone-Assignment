@@ -18,6 +18,12 @@ button:hover{
     color: rgb(79, 79, 79);
     cursor: pointer;
 }
+.games:hover{
+  border: 2px solid tomato;
+  border-radius: 50px;
+  color: rgb(255, 0, 255);
+  cursor: pointer;
+}
 
 /* nav style start */
 nav {
@@ -92,6 +98,7 @@ nav {
 
 .banner-content {
   width: 50%;
+  background-image: url('./images/Group 14.png');
 }
 .banner-h3 {
   color: #0b0223;
@@ -155,3 +162,84 @@ nav {
 }
 
 /* banner area end */
+
+/* play area start */
+.play-area{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+.play-area-content{
+    width: 50%;
+    margin-bottom: 16.3rem;
+}
+
+.play-instantly-style{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.play-area-heading{
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+margin-right: 10rem;
+}
+.play-area-content .play-area-description{
+  margin-right: 10.5rem;
+  margin-left: 8rem;
+color: #534C64;
+text-align: right;
+font-size: 1rem;
+line-height: 30px;
+}
+.play-area-image{
+    width: 50%;
+}
+.play-area-image img{
+    display: block;
+}
+.play-area-image-one{
+    width: 80%;
+}
+.play-area-image-two{
+  width: 40%;
+  border-radius: 10px;
+  position: relative;
+  bottom: 14.5rem;
+  right: 7rem;
+}
+/* play area end */
+
+/* games area start */
+.games-flex{
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-bottom: 1rem;
+}
+.games-image{
+  width: 3rem;
+  padding: 10px 0 10px 10px;
+}
+.games-h5{
+margin: 1.25rem 0.3rem 1.25rem 0;
+}
+
+
+.games-area{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 5rem;
+}
+.games-border{
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+/* games area end */
