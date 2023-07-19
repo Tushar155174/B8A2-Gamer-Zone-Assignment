@@ -78,6 +78,7 @@ nav {
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
   padding: 1rem 1.5rem;
+  cursor: pointer;
 }
 .follow-us-area .fa-youtube {
   margin-left: 1.25rem;
@@ -233,6 +234,7 @@ margin: 1.25rem 0.3rem 1.25rem 0;
   flex-wrap: wrap;
   margin: 0 5rem;
 }
+
 .games-border{
   border: 2px solid #fff;
   border-radius: 50px;
@@ -242,7 +244,7 @@ margin: 1.25rem 0.3rem 1.25rem 0;
 
 footer{
   background: #0B0223;
-  height: 80vh;
+  height: 85vh;
 }
 footer a:hover{
   color: #F948B2;
@@ -391,11 +393,149 @@ margin-bottom: 10px;
 }
 .play-area-image .play-area-image-two{
   position: relative;
-  right: 0.7rem;
+  left: 0.5rem;
   bottom: 15rem;
 }
 .play-area-content{
   width: 100%;
+}
+.play-area-heading{
+text-align: center;
+font-size: 1.5rem;
+position: relative;
+top: 7rem;
+font-weight: 700;
+line-height: 2rem;
+margin-right: 0;
+}
+.play-area-content .play-area-description{
+width: 100%;
+  position: relative;
+top: 8rem;
+margin-left: 0;
+margin-right: 0;
+text-align: center;
+line-height: 1.5rem;
+}
+.games-area{
+ display: grid;
+ grid-template-columns: repeat(3, 0fr);
+position: relative;
+bottom: 11rem;
+padding: 0 15px;
+gap: 30px;
+}
+.games{
+  padding-right: 20px;
+}
+.games-area img{
+  width: 30%;
+}
+footer{
+  height: 120vh;
+}
+.footer-option{
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
+  padding: 1rem 3rem;
+  text-align: right;
+  font-size: 600;
+}
+.footer-icon-area{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 2rem 6rem;
+}
+.policy-area{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+  margin-left: 60px;
+  margin-right: 15px;
+  font-size: 13px;
+}
+.footer-description{
+  margin-right: 6rem;
+ margin-left: 5.6rem;
+}
+}
+/* mobile devices responsive area end */
+/* tablet devices responsive area start */
+@media screen and (min-width:481px) and (max-width:768px) {
+ nav, .nav-links{
+  margin-top: 2rem;
+  flex-direction: column;
+ }
+ .nav-logo{
+  margin-bottom: 10px;
+ }  
+.nav-links{
+  margin-bottom: 30px;
+}
+.follow-us-area {
+  padding: 1rem 1rem;
+}
+.follow-us-area .fa-youtube {
+  margin-left: 0.5rem;
+}
+.follow-us-area .fa-tiktok {
+  margin-left: 0.5rem;
+}
+
+.banner-area{
+  flex-direction: column-reverse;
+  padding-left: 1rem;
+  justify-content: center;
+  position: relative;
+  top: 10rem;
+}
+.banner-image{
+  width: 100%
+}
+.banner-content{
+  width: 100%
+}
+.banner-h3 {
+  text-align: left;
+  margin-left: 2.2rem;
+  margin-top: 4rem;
+}
+.banner-h2{
+  font-size: 6rem;
+  text-align: left;
+  margin-left: 2.2rem;
+  margin-bottom: 1rem;
+}
+.pay-area,
+.download-area,
+.users-area {
+  align-items: center;
+margin-left: 2.3rem;
+margin-bottom: 10px;
+}
+.sign-in{
+  margin-left: 2.3rem;
+}
+.play-area{
+  flex-direction: column;
+}
+.play-area-image{
+  width: 85%;
+}
+.play-area-image .play-area-image-one{
+  position: relative;
+  left: 3rem;
+  bottom: 5rem;
+}
+ .play-area-image-two{
+  position: relative;
+  bottom: 22rem;
+  right: 8%;
+}
+.play-area-content{
+  width: 55%;
 }
 .play-area-heading{
 text-align: center;
@@ -429,25 +569,38 @@ footer{
   flex-wrap: wrap;
   gap: 20px;
   margin: 0;
-  padding: 1rem 3rem;
+  padding: 3rem 5rem;
   text-align: right;
   font-size: 600;
 }
 .footer-icon-area{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  padding: 2rem 6rem;
+  padding: 2rem 17rem;
 }
 .policy-area{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 30px;
-  margin-left: 60px;
-  margin-right: 15px;
+  margin: 1rem 0 1rem 9rem;
   font-size: 13px;
 }
 .footer-description{
   margin-right: 6rem;
  margin-left: 5.6rem;
 }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+/* tablet devices responsive area end */
