@@ -102,7 +102,6 @@ nav {
 
 .banner-content {
   width: 50%;
-  background-image: url('./images/Group 14.png');
 }
 .banner-h3 {
   color: #0b0223;
@@ -268,8 +267,8 @@ margin-bottom: 40px;
   margin-top: -52px;
   width: 0;
   position: relative;
-  bottom: 18.5rem;
-  left: 170px;
+  bottom: 12.5rem;
+  left: 100px;
   display: none;
 }
 
